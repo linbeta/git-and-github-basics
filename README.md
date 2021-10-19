@@ -109,5 +109,9 @@ git push origin mster
 git push -u origin master
 ```
 
+#### 注意事項
 
+GitHub上面預設的主分支名字是main，本地端是master，如果沒有改分支名，直接推上去，會在GitHub上再新增一個master分支，如果推上去有成功但沒看到資料，可以切換到master就看到程式檔了。
+
+![image](/branch_name.PNG)
 
