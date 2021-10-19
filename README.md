@@ -97,16 +97,16 @@ git remote add origin https://github.com/你的網址-請自行修改.git
 
 ### 把本地端的資料推到GitHub上面
 
-推上遠端的指令 (備註，main的地方打你本地端的分支名稱，可能是master 或其他分支名)
+推上遠端的指令 (備註，master的地方打你本地端的分支名稱，可能是main 或其他分支名)
 ```
-git push origin main
+git push origin mster
 ```
 
 如果每次要推上GitHub不想要打那麼長，可以用以下指令設定，這樣以後只需要打git push就可以推上去了。
 
 設定
 ```
-git push -u origin main
+git push -u origin master
 ```
 
 
