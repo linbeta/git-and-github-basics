@@ -64,3 +64,50 @@ git log
 ```
 git log --oneline
 ```
+
+### git graph 查看視覺化資訊
+
+
+## Part 3: GitHub
+
+先創建GitHub帳號，新增一個專案資料夾(repository)
+
+開好會看到這個畫面
+
+![image](/github_new_repo.PNG)
+
+
+
+
+### 設定遠端資料夾指令
+
+檢視遠端資料夾(repo)
+```
+git remote -v
+```
+
+設定遠端資料夾
+一開始會沒東西，把剛剛新建好的頁面其中一行指令貼下來進行設定
+```
+git remote add origin https://github.com/你的網址-請自行修改.git
+```
+
+設定成功的畫再輸入一次git remote -v就會看到遠端資料夾連結了
+
+
+### 把本地端的資料推到GitHub上面
+
+推上遠端的指令 (備註，main的地方打你本地端的分支名稱，可能是master 或其他分支名)
+```
+git push origin main
+```
+
+如果每次要推上GitHub不想要打那麼長，可以用以下指令設定，這樣以後只需要打git push就可以推上去了。
+
+設定
+```
+git push -u origin main
+```
+
+
+
