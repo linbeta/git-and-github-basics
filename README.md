@@ -16,8 +16,11 @@ git config --global user.name "你的名字"
 git config --global user.email "你的email (MY_NAME@example.com)"
 ```
 
+
 安裝git graph
+
 ![image](/安裝git_graph.PNG)
+
 
 
 ## Part 2: 基本Git使用指令
@@ -26,7 +29,9 @@ git config --global user.email "你的email (MY_NAME@example.com)"
 先隨意開一個新的資料夾來練習看看
 
 在想設定git追蹤的資料夾開啟cmd視窗
+
 ![image](/open_cmd.PNG)
+
 
 
 設定git開始追蹤此專案資料夾
