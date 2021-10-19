@@ -1,11 +1,22 @@
-# 基本指令
+# Git & GitHub 基本指令與操作
 
 10/19助教課內容
 
 
 ## Part 1: 先安裝git、設定帳號，vs code可以安裝git graph
 
-設定基本資料指令
+到Git的官網安裝：[https://git-scm.com/](https://git-scm.com/)
+
+[中文版的Git入門](https://backlog.com/git-tutorial/tw/intro/intro2_1.html)
+
+
+
+安裝完成以後輸入以下指令確認安裝版本
+```
+git --version
+```
+
+### 設定基本資料指令
 
 1. 設定名字
 ```
