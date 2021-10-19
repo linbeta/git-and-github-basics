@@ -67,6 +67,16 @@ git log --oneline
 
 ### git graph 查看視覺化資訊
 
+點vs code左下角的Git Graph就可以查看了
+
+![image](/gitgraph.PNG)
+
+
+這是在vs code上看到的commit logs
+
+![image](/commit_msg_on_vs_code.PNG)
+
+
 
 ## Part 3: GitHub
 
@@ -115,3 +125,15 @@ GitHub上面預設的主分支名字是main，本地端是master，如果沒有�
 
 ![image](/branch_name.PNG)
 
+
+### 下載GitHub上面的資料
+
+在GitHub上面的公開專案，右上角有個綠色的Code按鈕，點下去會看到Clone網址，如下圖：
+
+![image](/git_clone.PNG)
+
+
+輸入以下指令下載整個專案資料夾到本地
+```
+git clone https://github.com/linbeta/git-and-github-basics.git
+```
